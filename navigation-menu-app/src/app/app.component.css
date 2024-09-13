@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.menu-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #334155;
+  color: #f1f5f9;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #94a3b8;
+}
+
+.menu-item.active {
+  background-color: #dc2626;
+  color: #f8fafc;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: #f8fafc;
+}
